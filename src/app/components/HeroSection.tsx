@@ -1,6 +1,6 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
+//import { useRouter } from 'next/navigation';
 import dynamic from 'next/dynamic';
 const Player = dynamic(() => import('@lottiefiles/react-lottie-player').then((mod) => mod.Player), {
   ssr: false,
@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
-  const router = useRouter();
+  //const router = useRouter();
   const [showScrollIndicator, setShowScrollIndicator] = useState(true);
 
   useEffect(() => {
@@ -106,14 +106,14 @@ export default function HeroSection() {
           transition={{ duration: 0.5, ease: "easeOut", delay: 0.8 }}
           className="mt-10"
         >
-          <button
+          {/*<button
             onClick={() => router.push('/pages')}
             className="relative px-12 py-5 bg-yellow-500 text-gray-900 font-bold text-lg rounded-full shadow-lg hover:bg-yellow-600 transition duration-300 ease-in-out transform hover:scale-110 focus:ring-4 focus:ring-yellow-300 focus:outline-none 
             before:absolute before:inset-0 before:bg-gradient-to-r before:from-yellow-400 before:to-yellow-600 before:blur-xl before:-z-10 
             after:absolute after:inset-0 after:w-full after:h-full after:animate-pulse after:bg-yellow-500/40 after:blur-lg"
           >
             Try Tej →
-          </button>
+          </button>*/}
         </motion.div>
       </div>
 

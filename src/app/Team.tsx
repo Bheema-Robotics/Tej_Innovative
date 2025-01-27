@@ -28,8 +28,8 @@ const teamMembers = [
   },
   {
     name: "Srinivas",
-    role: "Machine Learning Engineer",
-    description: "Develops and optimizes real-time AI voice recognition models.",
+    role: "AI Engineer",
+    description: "Integrates AI technologies to enhance intelligent and responsive systems.",
     image: "/images/team-srinivas.webp",
     animal: "Strong & Data-Driven",
   },

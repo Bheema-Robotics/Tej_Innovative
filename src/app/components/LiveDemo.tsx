@@ -13,7 +13,7 @@ export default function LiveDemo() {
       <div className="relative w-full max-w-4xl mx-auto mb-12">
         <iframe
           className="w-full h-64 md:h-96 rounded-lg shadow-lg"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          src="https://www.youtube.com/embed/f1HAqw1TmxY"
           title="Tej Demo"
           frameBorder="0"
           allowFullScreen
